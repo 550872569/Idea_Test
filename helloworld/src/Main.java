@@ -12,6 +12,12 @@ import Person.com.Child.BigBoy;
 
 import Person.com.Test;
 
+import FaceObjectB.IObjectE;
+import FaceObjectB.ObjectA;
+import FaceObjectB.ObjectB;
+import FaceObjectB.ObjectC;
+import FaceObjectB.ObjectD;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -55,5 +61,14 @@ public class Main {
 
         Test t = new Test();
         t.show();
+        objectShow();
+    }
+
+    public static void objectShow () {
+        ObjectA a = new ObjectA();
+        a.show();
+        a.eat();
+        ObjectD d = new ObjectD();
+        d.showOld();
     }
 }
