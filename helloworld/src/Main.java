@@ -18,6 +18,8 @@ import FaceObjectB.ObjectB;
 import FaceObjectB.ObjectC;
 import FaceObjectB.ObjectD;
 
+import student.com.Underfraduate;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -62,6 +64,12 @@ public class Main {
         Test t = new Test();
         t.show();
         objectShow();
+
+        Student st = new Student("yan", 100);
+        st.study();
+
+        Underfraduate u = new Underfraduate(19,"ÿan","1");
+        u.show();
     }
 
     public static void objectShow () {

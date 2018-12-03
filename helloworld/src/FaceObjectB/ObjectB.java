@@ -6,5 +6,5 @@ import FaceObjectB.ObjectA;
  */
 public class ObjectB extends ObjectA {
 
-    
+
 }
